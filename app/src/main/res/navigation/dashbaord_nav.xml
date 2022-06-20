@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dashbaord_nav"
+    app:startDestination="@id/exerciseTrackerFragment">
+
+    <fragment
+        android:id="@+id/exerciseTrackerFragment"
+        android:name="com.fitlife.fitlife.dashbaord.fragments.ExerciseTrackerFragment"
+        android:label="ExerciseTrackerFragment" >
+        <action
+            android:id="@+id/action_exerciseTrackerFragment_to_exerciseCategories"
+            app:destination="@id/exerciseCategories" />
+    </fragment>
+    <fragment
+        android:id="@+id/exerciseCategories"
+        android:name="com.fitlife.fitlife.dashbaord.fragments.ExerciseCategories"
+        android:label="ExerciseCategories" >
+        <action
+            android:id="@+id/action_exerciseCategories_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_exerciseCategories_to_exerciseTrackerFragment"
+            app:destination="@id/exerciseTrackerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.fitlife.fitlife.dashbaord.fragments.AboutFragment"
+        android:label="AboutFragment">
+        <action
+            android:id="@+id/action_aboutFragment_to_exerciseCategories"
+            app:destination="@id/exerciseCategories"
+            app:popUpToInclusive="true"
+            app:popUpTo="@id/exerciseCategories" />
+        <argument
+            android:name="exerciseDetails"
+            app:argType="com.fitlife.fitlife.model.ExerciseDetail" />
+    </fragment>
+</navigation>

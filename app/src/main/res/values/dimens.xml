@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--genaral spacing-->
+    <dimen name="spacing_3dp">3dp</dimen>
+    <dimen name="spacing_5dp">5dp</dimen>
+    <dimen name="spacing_10dp">10dp</dimen>
+    <dimen name="spacing_15dp">15dp</dimen>
+    <dimen name="spacing_20dp">20dp</dimen>
+    <dimen name="spacing_25dp">25dp</dimen>
+    <dimen name="spacing_30dp">30dp</dimen>
+
+    <dimen name="spacing_8dp">8dp</dimen>
+    <dimen name="spacing_12dp">12dp</dimen>
+    <dimen name="spacing_22dp">22dp</dimen>
+    <dimen name="spacing_50dp">50dp</dimen>
+    <dimen name="spacing_18dp">18dp</dimen>
+    <dimen name="spacing_13dp">13dp</dimen>
+    <dimen name="spacing_40dp">40dp</dimen>
+    <dimen name="spacing_2dp">2dp</dimen>
+    <dimen name="spacing_70dp">70dp</dimen>
+    <dimen name="spacing_80dp">80dp</dimen>
+    <dimen name="spacing_100dp">100dp</dimen>
+    <dimen name="spacing_90dp">90dp</dimen>
+    <dimen name="spacing_13sp">13sp</dimen>
+    <dimen name="spacing_60dp">60dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="appbar_padding">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+
+</resources>

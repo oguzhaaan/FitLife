@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/applogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/fit_logo_app_j"
+                    android:layout_marginBottom="30dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/spacing_18dp"
+                    android:text="@string/fitlife">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_5dp"
+                android:layout_marginStart="@dimen/spacing_30dp"
+                android:layout_marginLeft="@dimen/spacing_30dp"
+                android:layout_marginEnd="@dimen/spacing_30dp"
+                android:layout_marginRight="@dimen/spacing_30dp"
+                android:background="@drawable/edit_texts_bg"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/email_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/enter_your_number_email"
+                    android:background="@null"
+                    android:padding="@dimen/spacing_5dp"
+                    android:inputType="textEmailAddress">
+                </EditText>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="@dimen/spacing_30dp"
+                android:layout_marginLeft="@dimen/spacing_30dp"
+                android:layout_marginEnd="@dimen/spacing_30dp"
+                android:layout_marginRight="@dimen/spacing_30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edit_texts_bg"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/password_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/enter_your_password"
+                    android:background="@null"
+                    android:padding="@dimen/spacing_5dp"
+                    android:inputType="textPassword">
+                </EditText>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_5dp"
+                android:layout_marginStart="@dimen/spacing_30dp"
+                android:layout_marginLeft="@dimen/spacing_30dp"
+                android:layout_marginEnd="@dimen/spacing_30dp"
+                android:layout_marginRight="@dimen/spacing_30dp"
+                android:layout_gravity="right"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/forgotpassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/red"
+                    android:visibility="gone"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:text="Forgot Password? ">
+                </TextView>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="@dimen/spacing_30dp"
+                android:layout_marginLeft="@dimen/spacing_30dp"
+                android:layout_marginEnd="@dimen/spacing_30dp"
+                android:layout_marginRight="@dimen/spacing_30dp"
+                android:layout_marginBottom="@dimen/spacing_30dp"
+                android:weightSum="2"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginEnd="10dp">
+                    <Button
+                        android:id="@+id/btn_signin"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/btn_signin_bg"
+                        android:text="@string/sign_in"
+                        android:onClick="@{() -> viewModel.onLoginButtonClick()}"
+
+                        android:textStyle="bold"
+                        android:textColor="@color/white">
+                    </Button>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp">
+
+                    <Button
+                        android:id="@+id/btn_register"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rgtr_btn_stroke_bg"
+                        android:text="@string/register"
+                        android:onClick="@{() -> viewModel.onSignUpClicked()}"
+
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/spacing_20dp"
+                android:gravity="center"
+                android:layout_gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/commentedittxt_bg"
+                    android:layout_height="match_parent">
+                    <Spinner
+                        android:id="@+id/chnage_langauge"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/spacing_20dp"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:text="@string/register"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/progressbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+            </ProgressBar>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="viewModel"
+            type="com.fitlife.fitlife.MainViewModel" />
+
+    </data>
+</layout>

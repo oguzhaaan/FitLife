@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FitLife</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Merhaba boş parça</string>
+    <string name="enter_your_number_email">E-postanızı giriniz</string>
+    <string name="enter_your_password">Şifrenizi giriniz</string>
+    <string name="sign_in">Giriş Yap</string>
+    <string name="navigation_drawer_open">açık</string>
+    <string name="navigation_drawer_close">kapat</string>
+    <string name="textregister_user"> kayıt olmak istiyor</string>
+    <string name="fitlife">FitLife a Hoş Geldiniz</string>
+    <string name="User_Found_Login">User Found Login</string>
+    <string name="user_not_login">Kullanıcı Giriş Yapamıyor</string>
+    <string name="name_is_required">İsim gereklidir</string>
+    <string name="password_isrequired">Şifre gereklidir</string>
+    <string name="name_is_Required">İsim gereklidir</string>
+    <string name="email_is_required">Email gereklidir</string>
+    <string name="provide_valid_email">Lütfen Geçerli Email Sağlayın</string>
+    <string name="password_req">Şifre gereklidir</string>
+    <string name="confrim_pass_req">Şifre Onayı Gereklidir</string>
+    <string name="user_register_successfully">Kullanıcı Başarıyla Kayıt Oldu</string>
+    <string name="user_not_Reg">Kullanıcı Kayıtlı Değil</string>
+    <string name="no_exercise_information">Henüz bir egzersiz eklenmedi! Lütfen kategorilerden bir egzersiz seçiniz.</string>
+    <string name="logout_question">Çıkış yapmak istediğinizden emin misiniz?</string>
+
+    <string name="password_must_6_charct">Şifre 6 uzunluğunda karakter olmalı ve onay şifresi ile eşleşmelidir</string>
+    <string name="Shoulder">Omuz</string>
+    <string name="Back">Sırt</string>
+    <string name="Biceps">Ön kol</string>
+    <string name="Legs">Bacak</string>
+    <string name="Triceps">Arka Kol</string>
+    <string name="Chest">Göğüs</string>
+    <string name="exercise_aaded_ssuc">Egzersiziniz Başarıyla Veritabanına Eklendi!</string>
+    <string name="exercise_not_aaded">Egzersiz Eklenmedi Lütfen Tekrar Deneyin!</string>
+    <string name="Over_Head_Press">Over Head Press</string>
+    <string name="Over_Head_Press_desc">Vücudunuz dik ve çekirdek kaslarınız gergin, dümdüz ileriye bakarak ayakta durun. Barı göğsünüzün üst kısmında tutun ve omuz genişliğinden biraz daha geniş olan ellerinizle kavrayın. Çubuğu doğrudan başınızın üzerine bastırın. Hareket sırasında kalçalarınızı öne eğmeyin.</string>
+    <string name="Shoulder_Press">Shoulder Press</string>
+    <string name="Shoulder_Press_desc">Avuç içleriniz sizden uzağa bakacak şekilde omuz yüksekliğinde her iki elinizde birer dambıl tutarak dik bir bankta oturun. Göğsünüzü yukarıda tutun ve karın bölgenizi destekleyin ve hareket boyunca dümdüz ileriye bakın. Kollarınız düz olana ve ağırlıklar başınızın üzerine değene kadar ağırlıkları doğrudan yukarı doğru bastırın. Ağırlıkları kontrollü bir şekilde başlangıç ​​pozisyonuna geri indirin, duraklayın ve bir sonraki tekrara başlayın. Alt pozisyondan yukarı zıplamak, omuzlarınıza daha fazla yük bindirir ve kaslarınız yerine ağırlıkları hareket ettirmek için momentumu kullandığınız anlamına gelir."</string>
+    <string name="Side_Latera_Raise">Side Lateral Raise</string>
+    <string name="Side_Latera_Raise_desc">Yan lateral kaldırma, deltoid kasın lateral başını izole etmek için tasarlanmış etkili bir omuz güçlendirme hareketidir. Düzenli olarak yapıldığında bu, daha güçlü, daha geniş omuzlar geliştirmenize yardımcı olabilir. Tek ihtiyacınız olan bir çift hafif dambıl ve omuzlarınızda bir "T" şekli oluşturana kadar kollarınızı (ağırlıkları vücudunuzdan dışarı ve dışarı doğru kaldırarak) kaçırmak için yeterli omuz esnekliğidir."</string>
+    <string name="Bent_">Bent Over Ball Bell Row</string>
+    <string name="Bent_Desc">Avuç içleriniz yukarı bakacak şekilde bir halter tutarak ayakta durun. Dizlerinizi hafifçe bükün ve belinizi bükerek öne doğru eğin. Sırtınızı dik ve dirseklerinizi vücudunuza yakın tutarak halteri göğsünüze doğru çekin, sırt kaslarınızı sıkın. Yavaşça başlangıç ​​pozisyonuna indirin.</string>
+    <string name="Lat_Pull">Lateral Pull</string>
+    <string name="Lat_Pull_desc">Aynı anda kürek kemiklerinizi aşağı doğru çekerek ve dirseklerinizi vücudunuza doğru çekerek aşağı doğru hareketi başlatın. Lat bar köprücük kemiklerinize ulaşana kadar üst sırt ve lat kaslarınızı sıkarken kürek kemiklerinizi omurganıza doğru çekmeye devam edin. Hareketin alt kısmında duraklayın.</string>
+    <string name="One_Arm">Tek Kol Dambıl</string>
+    <string name="One_Arm_desc">Standart tek kollu dambıl kürsüsüyle kendinizi rahat hissettiğinizde, egzersizi sehpanın üzerinde dik durarak ilerleyebilirsiniz. Bacağınızı ve elinizle bankta kendinizi desteklemek yerine, diğer elinizle kürek çekerken sadece bir eliniz üzerinde olacaksınız. " +Bu, göbeğinize yönelik zorluğu artırır, çünkü yukarı ve aşağı kürek çekerken gövdenizi yerinde tutmak için ağırlığa karşı daha fazla çalışmanız gerekir.\n" +Ayaklarınız omuz genişliğinde açık ve menteşeli olarak ayakta durun kalçalar bir yandan tezgahın üzerine eğilmek, serseriyi geri itmek ve sırtınızı düz tutmak için. Egzersiz sırasında gövdenizin değil, yalnızca kolunuzun hareket ettiğinden emin olarak ağırlığı kaldırın</string>
+    <string name="Concetration">Concetration</string>
+    <string name="Concetration_Desc">Ağırlığı yavaşça yukarı kaldırın, yalnızca ön kollarınızı hareket ettirin - üst kolunuzun uyluğunuzun üzerindeki konumu, egzersiz sırasında onu sabit tutmanıza yardımcı olacaktır. Hareketin zirvesinde, bir vuruş için duraklayın ve pazılarınızı sıkın, ardından ağırlığı yavaşça başlangıca geri indirin. Tüm tekrarlarınızı bir kolda yapın, ardından diğerine geçin."</string>
+    <string name="Ezbar">Ezbar Ters Kıvrım</string>
+    <string name="Ezbar_Desc">Bir çift dambıl veya EZ-curl barı eğimli bir tutuşla tutun (avuç içi vücudunuzdan uzağa ve yere doğru bakar). Bicepslerinizi esnetin, dirseklerinizi bükün ve dambılları omuzlarınıza doğru kaldırın. Bu harekete istediğiniz tekrar sayısı kadar devam edin."</string>
+    <string name="Hammer">Çekiç Kıvrımı</string>
+    <string name="Hammer_desc">Dirsekten bükün, ağırlıkları omuzlara doğru çekmek için alt kolları kaldırın. Üst kollarınız sabit ve bilekler önkollarla aynı hizada. Hareketin zirvesinde bir saniye basılı tutun. Başparmaklarınız omuzlara yakın olacak ve avuç içleriniz vücudun orta hattına bakacak şekilde.\n" +Başlangıç ​​pozisyonuna dönmek için ağırlıkları indirin."</string>
+    <string name="Barbell">Barbell Squat</string>
+    <string name="Barbell_desc">Barbell back squat olarak da bilinen bir barbell squat, hamstringleriniz, kalça kaslarınız ve alt sırt kaslarınız dahil olmak üzere alt vücudunuzdaki kas gruplarını harekete geçiren bileşik bir egzersizdir. Ayaklarınızı omuz genişliğinde açarak ayakta durarak halter ağız kavgası yapın. Derin bir nefes alın ve ağırlıklı bir halteri sırtınızın üstünde tutarak açın. Kalçalarınızı ve dizlerinizi bükerken göğsünüzü yukarıda ve sırtınızı düz tutun ve vücudunuzu tam bir hareket aralığı boyunca çömelme pozisyonuna alçaltın.
+"</string>
+    <string name="Leg_Extension">Leg Extension </string>
+    <string name="Leg_Extension_Desc">Yastıklı bir koltuğa oturuyorsunuz ve yastıklı bir çubuğu bacaklarınızla kaldırıyorsunuz.
+        Egzersiz esas olarak uyluğun ön tarafındaki kuadriseps kaslarını çalıştırır - rektus femoris
+        ve vastus kasları. Bu egzersizi daha düşük vücut gücü ve kas tanımı oluşturmak için kullanabilirsiniz.</string>
+
+    <string name="Leg_Press_">Leg Press</string>
+    <string name="Leg_Press_desc">Leg press, bir tür direnç antrenmanı egzersizi,
+        bacaklarınızı güçlendirmenin harika bir yoludur. Bacaklarını iterek yapılır
+        bacak pres makinesindeki ağırlıklara karşı. Tüm kuvvet antrenmanı egzersizleri gibi, bacak
+        Presler kas inşa eder, yaralanma riskini azaltır ve yaşa bağlı kaslara karşı koyar
+        kayıp."</string>
+
+
+    <string name="Push_">Tricep Pushdown</string>
+    <string name="Push_desc">Bir tricep pushdown, tasarlanmış bir izolasyon egzersizidir.
+        triceps kaslarınızı hedeflemek için. Ayakta durarak triceps pushdown ları gerçekleştirin
+        ayaklarınız omuz genişliğinde açık olacak şekilde makaralı makinenin önüne geçin. tutun
+        makara makinesindeki kablo ekinin. Bu ek takılabilir
+        bir ip, düz bir çubuk veya bir V-bar ile.</string>
+
+    <string name="Skull">Skull Crusher
+</string>
+    <string name="Skull_Desc">Yalancı triseps olarak da bilinen bir kafatası kırıcı
+        extension, triseps kaslarınıza odaklanan bir izolasyon egzersizidir.
+        Skull crusher, düz bir bankta sırt üstü yatarak yapılır ve
+        dambılları başınızın arkasından üstünüzde tam uzatmaya kaldırın. İle
+        uygun formda, bu kuvvet antrenmanı egzersizi sadece bir triseps egzersizinden daha fazlası olabilir.
+        omuzlarınızdaki deltoidler ve latissimus dorsi gibi kas gruplarını da çalıştırabilir.
+        sırtınızdaki kas. Bazı kafatası kırıcı varyasyonları, bir halter veya bir halter için halterin yerini alır.</string>
+    <string name="Triceps_Dps">Triceps Dips</string>
+    <string name="Triceps_Dps_Desc">Bench dips, tasarlanmış bir vücut ağırlığı egzersizidir.
+        kollarınızdaki, omuzlarınızdaki ve göğsünüzdeki kasları harekete geçirmek için yapılır. Bir bankta veya yükseltilmiş bir yüzeyde oturarak alt bedeniniz önünüzde yere kadar uzanmış haldeyken bank diplerini gerçekleştirin
+        </string>
+    <string name="Bench_Press">Bench Press</string>
+    <string name="Bench_Press_Desc"> "Bir halter tutan düz bir bankta sırt üstü uzanın
+        omuz genişliğinde, üstten tutuşla üstünüzdeki rafta.\n" +
+        dörtlü ve kalça kaslarınızı kasmak için ayaklarınızı yere basın ve
+        ağırlıkların seyahat yolunu kısaltmak için omuz bıçakları. Bu sinirsel artırır
+        göğsünüze, deltalarınıza ve trisepslerinize sürün. Başlangıç ​​pozisyonundan nefes alın
+        ve çubuğu göğsünüzün ortasından geçene kadar yavaşça indirin. Zihninize odaklanın
+        göğüs kaslarınızı harekete geçirin ve çubuğu başlangıç ​​pozisyonuna geri itin."</string>
+    <string name="Cable">Cable Crossover</string>
+    <string name="Cable_Desc">Ayaklar omuz genişliğinde açık olacak şekilde makinenin ortasında durun.
+        Gövdenizi hafifçe öne doğru bükün, omurganızı nötr ve sırtınızı düz tutun ve bükün
+        dirsekleriniz de hafifçe, bilekleriniz yere bakacak şekilde. Ardından
+        her iki tutamacı da aşağı ve vücudunuz boyunca çekin.</string>
+    <string name="umble_Fly">Dumble Fly</string>
+    <string name="umble_Fl_desc">Ayaklar omuz genişliğinde açık olacak şekilde makinenin ortasında durun.
+        Gövdenizi hafifçe öne doğru bükün, omurganızı nötr ve sırtınızı düz tutun ve bükün
+        dirsekleriniz de hafifçe, bilekleriniz yere bakacak şekilde. Çekirdeğinizi meşgul tutmak,
+        her iki tutamacı da aşağı ve vücudunuz boyunca çekin.</string>
+    <string name="exercise">Egzersizlerim</string>
+    <string name="categories">Kategoriler</string>
+    <string name="add_exercise">Egzersiz Ekle
+</string>
+    <string name="ok">TAMAM</string>
+    <string name="no">HAYIR</string>
+    <string name="sets">Setler
+</string>
+    <string name="date">Tarih
+</string>
+    <string name="weight">Ağırlık</string>
+    <string name="repetition">Tekrarlar</string>
+    <string name="dismiss">Kapat</string>
+    <string name="add">Ekle</string>
+    <string name="please_select_how_much_sets_and_weight_you_will_do_for_it">Lütfen bunun için ne kadar set ve ağırlık yapacağınızı seçin.</string>
+    <string name="enter_your_name">Adınızı giriniz</string>
+    <string name="male">Erkek</string>
+    <string name="female">Kadın</string>
+    <string name="confirm_your_password">Parolanızı Onaylayın
+</string>
+    <string name="register">Kayıt ol
+</string>
+
+
+</resources>

@@ -1,0 +1,133 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/please_select_how_much_sets_and_weight_you_will_do_for_it"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/spacing_20dp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/sets"
+                android:textColor="@color/red"
+                android:textSize="@dimen/spacing_20dp" />
+
+            <EditText
+                android:id="@+id/sets_count"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="@dimen/spacing_25dp"
+                android:layout_height="wrap_content"></EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/date"
+                android:textColor="@color/red"
+                android:textSize="@dimen/spacing_20dp" />
+
+            <EditText
+                android:id="@+id/date_picker"
+                android:layout_width="match_parent"
+                android:focusableInTouchMode="false"
+                android:layout_marginLeft="@dimen/spacing_25dp"
+                android:layout_height="wrap_content"></EditText>
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/weight"
+                android:textColor="@color/red"
+                android:textSize="@dimen/spacing_20dp" />
+
+            <EditText
+                android:id="@+id/weight_count"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="@dimen/spacing_25dp"
+
+                android:layout_height="wrap_content"></EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/repetition"
+                android:textColor="@color/red"
+                android:textSize="@dimen/spacing_20dp" />
+
+            <EditText
+                android:id="@+id/repitition_count"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="@dimen/spacing_25dp"
+
+                android:layout_height="wrap_content"></EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/dismiss"
+                android:layout_width="@dimen/spacing_100dp"
+                android:layout_height="@dimen/spacing_50dp"
+                android:layout_margin="30dp"
+                android:text="@string/dismiss"
+                app:backgroundTint="@color/red"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+            <Button
+                android:id="@+id/add_details"
+                android:layout_width="100dp"
+                android:layout_height="@dimen/spacing_50dp"
+                android:layout_margin="30dp"
+                android:text="@string/add"
+                app:backgroundTint="@color/colorPrimaryDark"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

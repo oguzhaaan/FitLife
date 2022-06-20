@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/exerciseTrackerFragment"
+        android:icon="@drawable/time_tracking"
+        android:title="@string/exercise" />
+    <item
+        android:id="@+id/exerciseCategories"
+        android:enabled="true"
+        android:icon="@drawable/gymnast_practice"
+        android:title="@string/categories" />
+    <item
+        android:id="@+id/aboutFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_add_categroy"
+        android:title="@string/add_exercise" />
+</menu>
